@@ -1,0 +1,19 @@
+{
+  "name": "Pokédex App",
+  "short_name": "Pokédex",
+  "description": "Explora y guarda tus Pokémon favoritos.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffcb05",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "santi.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "splash_pages": null
+}
