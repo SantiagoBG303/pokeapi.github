@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <button onclick="home()">Home</button>
+        <button onclick="capturados()">Capturados</button>
+        <button onclick="favoritos()">Favoritos</button>
+        <button onclick="informativa()">Informativa</button>
+        <button onclick="pokemon()">Pokemon</button>
+        <button onclick="conexion()">Conexion</button>
+    </nav>
+
+    <div id="root"></div>
+
+    <script src="JS/pokemon.js"></script>
+    <script src="JS/home.js"></script>
+    <script src="JS/capturados.js"></script>
+    <script src="JS/favoritos.js"></script>
+    <script src="JS/informativa.js"></script>
+    <script src="JS/conexion.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            home();
+        });
+    </script>
+</body>
+</html>
