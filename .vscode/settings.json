@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "liveServer.settings.port": 5503,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.ts"
+    ],
+    "liveServer.settings.CustomBrowser": "chrome",
+    "html.format.wrapLineLength": 120,
+    "css.validate": true,
+    "javascript.validate.enable": true
+}
