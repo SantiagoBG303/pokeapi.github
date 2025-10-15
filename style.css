@@ -1,3 +1,66 @@
-body{
-    background-color: rgb(199, 255, 255);
+/* ====== ESTILOS GENERALES ====== */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* ====== MENÚ DE NAVEGACIÓN ====== */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+    background: #ffffffaa;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 20px;
+}
+
+/* ====== BOTONES ====== */
+button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+/* ====== CONTENIDO PRINCIPAL ====== */
+#root {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+/* ====== IMÁGENES GRANDES ====== */
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+}
+
+/* ====== RESPONSIVO ====== */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+    }
 }
