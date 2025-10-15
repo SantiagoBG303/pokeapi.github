@@ -3,7 +3,7 @@
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
-    "liveServer.settings.port": 5503,
+    "liveServer.settings.port": 5505,
     "liveServer.settings.root": "/",
     "liveServer.settings.ignoreFiles": [
         ".vscode/**",
